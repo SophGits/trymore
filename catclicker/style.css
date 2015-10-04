@@ -1,0 +1,23 @@
+#cat-image, #number-of-clicks {
+  display: inline-block;
+  vertical-align: middle;
+}
+#cat-image {
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+}
+#cat-image   img {
+  width: 100%;
+  border: 2px solid blue;
+}
+#number-of-clicks {
+  font-size: 30px;
+  padding-left: 20px;
+}
+#gallery{
+  width: 90px;
+  position: relative;
+  float: right;
+}
+#gallery img { display: inline-block; width: 100%; cursor: pointer; }
